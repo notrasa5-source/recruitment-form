@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export const registrationSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
-  roll_number: z.string()
+  roll_no: z.string()
     .min(2, 'Roll number is required')
     .max(15, 'Roll number should not be greater than 15 digits')
     .regex(/^\d+$/, 'Roll number must be digits only'),
@@ -27,3 +27,4 @@ export const registrationSchema = z.object({
 });
 
 export type RegistrationData = z.infer<typeof registrationSchema>;
+
