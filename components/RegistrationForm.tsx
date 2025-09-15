@@ -172,7 +172,7 @@ export default function RegistrationForm() {
               </div>
               <div>
                 <Label htmlFor="best_work">What is your best work? (Graphic Designing, Video editing, Coding)</Label>
-                <Input id="best_work" placeholder="Google Drive public view link" {...register('best_work')} />
+                <Input id="best_work" placeholder="Google Drive or Github repository public view link" {...register('best_work')} />
                 {errors.best_work && <p className="text-red-500 text-sm">{errors.best_work.message}</p>}
               </div>
             </div>
@@ -192,3 +192,4 @@ export default function RegistrationForm() {
     </div>
   );
 }
+
