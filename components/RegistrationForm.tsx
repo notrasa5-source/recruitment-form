@@ -33,19 +33,11 @@ export default function RegistrationForm() {
     setSubmitStatus('idle');
     setErrorMessage('');
 
-  // Phone number validation: should not start with +91
-    if (data.phone_number.trim().startsWith('+91')) {
+    // Roll number validation: must be 15 digits or less
+    if (!/^\d{1,15}$/.test(data.roll_no)) {
       setIsSubmitting(false);
       setSubmitStatus('error');
-      setErrorMessage('Please remove "+91" from your phone number.');
-      return;
-    }
-
-    // Roll number validation: must be 10 digits or less
-    if (!/^\d{1,10}$/.test(data.roll_no)) {
-      setIsSubmitting(false);
-      setSubmitStatus('error');
-      setErrorMessage('Roll number should not be greater than 10 digits.');
+      setErrorMessage('Roll number should not be greater than 15 digits.');
       return;
     }
 
@@ -192,4 +184,5 @@ export default function RegistrationForm() {
     </div>
   );
 }
+
 
