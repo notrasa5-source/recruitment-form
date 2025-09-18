@@ -102,6 +102,9 @@ export default function RegistrationForm() {
             <a href="https://www.linkedin.com/company/notxrasa" target="_blank" rel="noopener noreferrer">
               <img src="/linkedin.png" alt="LinkedIn" className="w-8 h-8 rounded-full border-2 border-red-600 hover:scale-110 transition" />
             </a>
+            <a href="https://linktr.ee/notxrasa" target="_blank" rel="noopener noreferrer">
+              <img src="/tree.png" alt="linktree" className="w-8 h-8 rounded-full border-2 border-red-600 hover:scale-110 transition" />
+            </a>
           </div>
           </div>
           <CardTitle className="text-center text-2xl font-bold">Register</CardTitle>
@@ -184,5 +187,6 @@ export default function RegistrationForm() {
     </div>
   );
 }
+
 
 
