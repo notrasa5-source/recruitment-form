@@ -59,6 +59,9 @@ export const getRegistrationEmailTemplate = (
             <a href="https://linktr.ee/notxrasa" class="linktree" target="_blank">LinkTree</a>
             <a href="https://chat.whatsapp.com/Cxo9JP2Vx4R0ZuxEXYXEvk?mode=ems_copy_t" class="whatsapp" target="_blank">Whatsapp</a>
           </div>
+          <div cass="whatsapp">
+            <p>Join our Whatsapp group for the further communications</p>
+          </div>
           <div class="disclaimer">
             <p><strong>Important Notes:</strong></p>
             <p>• Keep this email for your records</p>
@@ -72,6 +75,7 @@ export const getRegistrationEmailTemplate = (
   `;
 
 };
+
 
 
 
