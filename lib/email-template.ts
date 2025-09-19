@@ -56,7 +56,8 @@ export const getRegistrationEmailTemplate = (
           <p style="font-weight: 600; color: #b91c1c; margin: 5px 0;">We bring togetherness out of nothingness</p>
           <div class="social-links">
             <a href="https://instagram.com/notxrasa" class="instagram" target="_blank">Instagram</a>
-            <a href="https://linkedin.com/company/notxrasa" class="linkedin" target="_blank">LinkedIn</a>
+            <a href="https://linktr.ee/notxrasa" class="linktree" target="_blank">LinkTree</a>
+            <a href="https://chat.whatsapp.com/Cxo9JP2Vx4R0ZuxEXYXEvk?mode=ems_copy_t" class="whatsapp" target="_blank">Whatsapp</a>
           </div>
           <div class="disclaimer">
             <p><strong>Important Notes:</strong></p>
@@ -71,5 +72,6 @@ export const getRegistrationEmailTemplate = (
   `;
 
 };
+
 
 
