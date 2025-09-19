@@ -13,6 +13,15 @@ export const getRegistrationEmailTemplate = (
         body { font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #2d0b0b 0%, #f8fafc 100%); color: #22223b; margin: 0; padding: 0; }
         .container { background: #fff; border-radius: 20px; padding: 48px 32px; max-width: 650px; margin: 40px auto; box-shadow: 0 12px 32px rgba(220, 38, 38, 0.10), 0 2px 8px rgba(220, 38, 38, 0.08); border: 1px solid #e2e8f0; }
         .header { text-align: center; margin-bottom: 36px; }
+        .social-links a.whatsapp {
+          color: #25D366;
+          font-weight: bold;
+        }
+
+        .whatsapp-text {
+          color: #25D366; /* WhatsApp green */
+          font-weight: 600;
+        }
         .logo { width: 110px; height: 110px; margin: 0 auto 18px; border-radius: 50%; overflow: hidden; border: 4px solid #dc2626; box-shadow: 0 4px 16px rgba(220, 38, 38, 0.15); background: #f3f4f6; }
         .logo img { width: 100%; height: 100%; object-fit: cover; }
         .title { font-size: 34px; font-weight: 700; margin: 0; background: linear-gradient(135deg, #dc2626 0%, #000 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
@@ -57,10 +66,11 @@ export const getRegistrationEmailTemplate = (
           <div class="social-links">
             <a href="https://instagram.com/notxrasa" class="instagram" target="_blank">Instagram</a>
             <a href="https://linktr.ee/notxrasa" class="linktree" target="_blank">LinkTree</a>
-            <a href="https://chat.whatsapp.com/Cxo9JP2Vx4R0ZuxEXYXEvk?mode=ems_copy_t" class="whatsapp" target="_blank">Whatsapp</a>
+            <a href="https://chat.whatsapp.com/Cxo9JP2Vx4R0ZuxEXYXEvk?mode=ems_copy_t" 
+                 class="whatsapp" target="_blank">Whatsapp</a>
           </div>
-          <div cass="whatsapp">
-            <p>Join our Whatsapp group for the further communications</p>
+          <div class="whatsapp-text">
+              <p>Join our Whatsapp group for the further communications</p>
           </div>
           <div class="disclaimer">
             <p><strong>Important Notes:</strong></p>
@@ -75,6 +85,7 @@ export const getRegistrationEmailTemplate = (
   `;
 
 };
+
 
 
 
