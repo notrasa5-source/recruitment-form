@@ -13,13 +13,14 @@ export const getRegistrationEmailTemplate = (
         body { font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #2d0b0b 0%, #f8fafc 100%); color: #22223b; margin: 0; padding: 0; }
         .container { background: #fff; border-radius: 20px; padding: 48px 32px; max-width: 650px; margin: 40px auto; box-shadow: 0 12px 32px rgba(220, 38, 38, 0.10), 0 2px 8px rgba(220, 38, 38, 0.08); border: 1px solid #e2e8f0; }
         .header { text-align: center; margin-bottom: 36px; }
+        
         .social-links a.whatsapp {
-          color: #25D366;
+          color: #42EA18;
           font-weight: bold;
         }
 
         .whatsapp-text {
-          color: #25D366; /* WhatsApp green */
+          color: #42EA18;
           font-weight: 600;
         }
         .logo { width: 110px; height: 110px; margin: 0 auto 18px; border-radius: 50%; overflow: hidden; border: 4px solid #dc2626; box-shadow: 0 4px 16px rgba(220, 38, 38, 0.15); background: #f3f4f6; }
@@ -85,6 +86,7 @@ export const getRegistrationEmailTemplate = (
   `;
 
 };
+
 
 
 
